@@ -4,7 +4,7 @@ import Link from "@/components/link";
 
 export default function Home() {
 	return (
-		<main className="font-mono flex justify-center bg-gradient-to-r from-gray-50 to-gray-300 min-h-screen items-center px-8 tracking-wider">
+		<main className="font-mono flex justify-center bg-gradient-to-r from-gray-50 to-gray-400 min-h-screen items-center px-8 tracking-wider">
 			<div>
 				<div className="flex flex-col items-center">
 					<h1 className="text-4xl">yox5ro</h1>
@@ -38,7 +38,7 @@ export default function Home() {
 					</ul>
 					<H2 title="Work Experiences" className="mt-8" />
 					<ul>
-						<Li>Software Engineer at Digeon Inc., part time, 2021-Present</Li>
+						<Li>Software Engineer at Digeon Inc., part-time, 2021-Present</Li>
 					</ul>
 					<H2 title="Educations" className="mt-8" />
 					<ul>

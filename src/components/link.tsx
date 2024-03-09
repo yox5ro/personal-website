@@ -14,7 +14,11 @@ export default function Link({
 	className,
 }: Props) {
 	return (
-		<a href={href} target="blank" className={`hover:opacity-60 ${className}`}>
+		<a
+			href={href}
+			target="blank"
+			className={`hover:opacity-60 underline ${className}`}
+		>
 			{serviceName} @ {userName}
 		</a>
 	);
