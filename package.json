@@ -6,18 +6,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "biome lint --apply ./src",
+    "lint": "biome lint --write ./src",
     "format": "biome format ./src --write",
-    "check": "biome check --apply ./src"
+    "check": "biome check --write ./src"
   },
   "dependencies": {
-    "next": "14.1.3",
+    "next": "^15",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.5.3",
-    "@types/node": "^20",
+    "@biomejs/biome": "^1.9",
+    "@types/node": "^22",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
