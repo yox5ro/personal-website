@@ -4,10 +4,10 @@ import Link from "@/components/link";
 
 export default function Profile() {
 	return (
-		<div className="font-mono flex justify-center bg-gradient-to-r from-gray-50 to-gray-400 min-h-screen items-center px-8 tracking-wider">
+		<div className="font-sans font-medium flex justify-center bg-gradient-to-r from-gray-50 to-gray-400 min-h-screen items-center px-8 py-16 tracking-wider">
 			<div className="lg:w-1/2 md:w-3/4">
 				<div className="flex flex-col items-center">
-					<h1 className="text-3xl">Yoshihiro Koyama</h1>
+					<h1 className="text-3xl font-extrabold">Yoshihiro Koyama</h1>
 				</div>
 				<div>
 					<H2 title="Work Experiences" className="mt-16" />
@@ -31,7 +31,7 @@ export default function Profile() {
 							<sub>4</sub>-statistics-based ancestry profiling and convolutional
 							neural network phenotyping shed new light on the structure of
 							genetic and spike shape diversity in <i>Aegilops tauschii</i>{" "}
-							Coss. <i>bioRxiv</i>.{" "}
+							Coss. <i>bioRxiv</i> (preprint).{" "}
 							<a
 								className="hover:opacity-60 underline"
 								href="https://doi.org/10.1101/2025.02.16.638466"
