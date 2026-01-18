@@ -4,7 +4,7 @@ import Link from "@/components/link";
 
 export default function Profile() {
 	return (
-		<div className="font-sans font-medium flex justify-center bg-gradient-to-r from-gray-50 to-gray-400 min-h-screen items-center px-8 py-16 tracking-wider">
+		<div className="font-sans font-medium flex justify-center bg-linear-to-r from-gray-50 to-gray-400 min-h-screen items-center px-8 py-16 tracking-wider">
 			<div className="lg:w-1/2 md:w-3/4">
 				<div className="flex flex-col items-center">
 					<h1 className="text-3xl font-extrabold">Yoshihiro Koyama</h1>
