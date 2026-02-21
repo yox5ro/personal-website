@@ -10,7 +10,11 @@ export default function Profile() {
 					<h1 className="text-3xl font-extrabold">Yoshihiro Koyama</h1>
 				</div>
 				<div>
-					<H2 title="Work Experiences" className="mt-16" />
+					<H2 title="Location" className="mt-16" />
+					<div>Kyoto, Japan</div>
+					<H2 title="Biography" className="mt-8" />
+					<div>He grew up in Kyoto, Japan. He studied biology and genetics at university, and later moved into the tech field. He currently works as a software engineer, developing SaaS applications.</div>
+					<H2 title="Work Experiences" className="mt-8" />
 					<ul>
 						<Li>Software Engineer at a company, full-time, 2025-</Li>
 						<Li>Software Engineer at Digeon Inc., part-time, 2021-2025</Li>
